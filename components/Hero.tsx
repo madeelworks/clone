@@ -405,7 +405,7 @@ export default function Hero() {
             <div className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center text-center relative">
   {/* Arrow Icon */}
   <a
-    href="#" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/world-heritage" // Replace with the actual URL or route for the new page
     className="absolute top-3 right-3 bg-blue-600 text-white p-2 rounded-full shadow hover:bg-blue-500"
   >
     <span className="text-lg">→</span>
@@ -437,7 +437,7 @@ export default function Hero() {
             <div className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center text-center relative">
   {/* Arrow Icon */}
   <a
-    href="/new-page" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/intangible-cultural-heritage" // Replace with the actual URL or route for the new page
     className="absolute top-3 right-3 bg-blue-600 text-white p-2 rounded-full shadow hover:bg-blue-500"
   >
     <span className="text-lg">→</span>
@@ -445,7 +445,7 @@ export default function Hero() {
 
   {/* Card Content */}
   <a
-    href="#" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/intangible-cultural-heritage" // Replace with the actual URL or route for the new page
     className="w-full text-center"
   >
     <div className="flex justify-center">
@@ -468,7 +468,7 @@ export default function Hero() {
             <div className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center text-center relative">
   {/* Arrow Icon */}
   <a
-    href="/new-page" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/mab" // Replace with the actual URL or route for the new page
     className="absolute top-3 right-3 bg-blue-600 text-white p-2 rounded-full shadow hover:bg-blue-500"
   >
     <span className="text-lg">→</span>
@@ -476,7 +476,7 @@ export default function Hero() {
 
   {/* Card Content */}
   <a
-    href="#" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/mab" // Replace with the actual URL or route for the new page
     className="w-full text-center"
   >
     <div className="flex justify-center">
@@ -499,7 +499,7 @@ export default function Hero() {
             <div className="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col items-center text-center relative">
   {/* Arrow Icon */}
   <a
-    href="/new-page" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/iggp" // Replace with the actual URL or route for the new page
     className="absolute top-3 right-3 bg-blue-600 text-white p-2 rounded-full shadow hover:bg-blue-500"
   >
     <span className="text-lg">→</span>
@@ -507,7 +507,7 @@ export default function Hero() {
 
   {/* Card Content */}
   <a
-    href="#" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/iggp" // Replace with the actual URL or route for the new page
     className="w-full text-center"
   >
     <div className="flex justify-center">
@@ -534,7 +534,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {/* News Item 1 */}
             <a
-  href="#" // Replace with the actual URL or route for the new page
+  href="https://www.unesco.org/en/articles/unesco-highlights-role-artificial-intelligence-education-congreso-futuro-2025" // Replace with the actual URL or route for the new page
   className="block"
 >
   <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
@@ -555,7 +555,7 @@ export default function Hero() {
 
             {/* News Item 2 */}
             <a
-  href="#" // Replace with the actual URL or route for the new page
+  href="https://www.unesco.org/en/articles/2025-edition-unesco/jose-marti-international-prize" // Replace with the actual URL or route for the new page
   className="block"
 >
   <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
@@ -576,7 +576,7 @@ export default function Hero() {
 
             {/* News Item 3 */}
             <a
-  href="#" // Replace with the actual URL or route for the new page
+  href="https://www.unesco.org/en/articles/international-day-education-egypt" // Replace with the actual URL or route for the new page
   className="block"
 >
   <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
@@ -600,7 +600,7 @@ export default function Hero() {
             <div className=" p-4 rounded-lg ">
   {/* Only Text Clickable */}
   <a
-    href="/green-chemistry-projects" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/articles/2024-green-chemistry-projects-awarded-unesco-grant" // Replace with the actual URL or route for the new page
     className="text-gray-800 font-medium text-lg hover:underline"
   >
     <h3 className="mt-4">
