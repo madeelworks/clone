@@ -80,7 +80,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative">
               <Image
-                src="/Assets/Hero2.jpg.webp" // Replace with your image path
+                src="/Assets/Hero1.jpg" // Replace with your image path
                 alt="UNESCO action"
                 width={1200}
                 height={400}
@@ -97,7 +97,7 @@ export default function Hero() {
             </div>
             <div className="relative">
               <Image
-                src="/Assets/Hero3.webp" // Replace with your image path
+                src="/Assets/Hero1.jpg" // Replace with your image path
                 alt="UNESCO action"
                 width={400}
                 height={400}
@@ -114,7 +114,7 @@ export default function Hero() {
             </div>
             <div className="relative">
               <Image
-                src="/Assets/crisis3.jpg" // Replace with your image path
+                src="/Assets/Hero1.jpg" // Replace with your image path
                 alt="UNESCO action"
                 width={400}
                 height={400}
