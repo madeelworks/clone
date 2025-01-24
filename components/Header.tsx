@@ -1,4 +1,23 @@
+'use client';
 import React from "react";
+
+// Dropdown Component
+const Dropdown = ({ label }: { label: string }) => {
+  return (
+    <div className="relative group">
+      <button className="text-white flex items-center space-x-1 hover:underline">
+        {label} <span className="ml-1">▼</span>
+      </button>
+      {/* Dropdown Menu */}
+      <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-md mt-2">
+        <ul className="py-2">
+         
+         
+        </ul>
+      </div>
+    </div>
+  );
+};
 
 const Header = () => {
   return (
@@ -33,39 +52,15 @@ const Header = () => {
 
         {/* Right Section */}
         <div className="flex items-center space-x-4">
-          <Dropdown label="English" />
           <button className="text-white hover:text-gray-300">
-            <i className="fas fa-search"></i>
+            {/* Replace with a search icon */}
+            <span role="img" aria-label="search">
+              🔍
+            </span>
           </button>
         </div>
       </div>
     </header>
-  );
-};
-
-// Dropdown Component
-const Dropdown = ({ label }) => {
-  return (
-    <div className="relative group">
-      <button className="text-white flex items-center space-x-1 hover:underline">
-        <span>{label}</span>
-        <i className="fas fa-chevron-down text-sm"></i> {/* Arrow Icon */}
-      </button>
-      {/* Dropdown Menu */}
-      <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-md mt-2 z-10">
-        <ul className="py-2">
-          <li className="px-4 py-2 hover:bg-gray-100">
-            <a href="#">Option 1</a>
-          </li>
-          <li className="px-4 py-2 hover:bg-gray-100">
-            <a href="#">Option 2</a>
-          </li>
-          <li className="px-4 py-2 hover:bg-gray-100">
-            <a href="#">Option 3</a>
-          </li>
-        </ul>
-      </div>
-    </div>
   );
 };
 
