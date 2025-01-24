@@ -142,54 +142,78 @@ export default function Hero() {
             around the world.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div>
-              <Image
-                src="/Assets/Hero55.jpg" // Replace with your image path
-                alt="Story 1"
-                width={300}
-                height={200}
-                className="rounded shadow-lg"
-              />
-              <p className="mt-4 text-gray-800 font-medium">
-                How a Literary Masterpiece Inspired an All-Women’s Expedition to the Himalayas
-              </p>
-            </div>
-            <div>
-              <Image
-                src="/Assets/Hero6.jpg" // Replace with your image path
-                alt="Story 2"
-                width={300}
-                height={200}
-                className="rounded shadow-lg"
-              />
-              <p className="mt-4 text-gray-800 font-medium">
-                Echoes of Resilience: Nepali Community Radios in Disaster Response
-              </p>
-            </div>
-            <div>
-              <Image
-                src="/Assets/Hero7.jpg" // Replace with your image path
-                alt="Story 3"
-                width={300}
-                height={200}
-                className="rounded shadow-lg"
-              />
-              <p className="mt-4 text-gray-800 font-medium">
-                UNESCO and Mali’s Co-organized 2nd AI Readiness Assessment Methodology
-              </p>
-            </div>
-            <div>
-              <Image
-                src="/Assets/Hero8.png.jpg" // Replace with your image path
-                alt="Story 4"
-                width={300}
-                height={200}
-                className="rounded shadow-lg"
-              />
-              <p className="mt-4 text-gray-800 font-medium">
-                Indigenous Youth Insights from COP16
-              </p>
-            </div>
+          <a
+  href="https://www.unesco.org/en/articles/how-literary-masterpiece-inspired-all-womens-expedition-himalayas" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero55.jpg" // Replace with your image path
+      alt="Story 1"
+      width={300}
+      height={200}
+      className="rounded shadow-lg"
+    />
+    <p className="mt-4 text-gray-800 font-medium">
+      How a Literary Masterpiece Inspired an All-Women’s Expedition to the Himalayas
+    </p>
+  </div>
+</a>
+
+<a
+  href="https://www.unesco.org/en/articles/echoes-resilience-nepali-community-radios-disaster-response" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero6.jpg" // Replace with your image path
+      alt="Story 2"
+      width={300}
+      height={200}
+      className="rounded shadow-lg"
+    />
+    <p className="mt-4 text-gray-800 font-medium">
+      Echoes of Resilience: Nepali Community Radios in Disaster Response
+    </p>
+  </div>
+</a>
+
+<a
+  href="https://www.unesco.org/en/articles/unesco-and-meity-co-organize-2nd-ai-readiness-assessment-methodology-ram-consultation" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero7.jpg" // Replace with your image path
+      alt="Story 3"
+      width={300}
+      height={200}
+      className="rounded shadow-lg"
+    />
+    <p className="mt-4 text-gray-800 font-medium">
+      UNESCO and Mali’s Co-organized 2nd AI Readiness Assessment Methodology
+    </p>
+  </div>
+</a>
+
+<a
+  href="https://www.unesco.org/en/articles/indigenous-youth-insights-cop16" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero8.png.jpg" // Replace with your image path
+      alt="Story 4"
+      width={300}
+      height={200}
+      className="rounded shadow-lg"
+    />
+    <p className="mt-4 text-gray-800 font-medium">
+      Indigenous Youth Insights from COP16
+    </p>
+  </div>
+</a>
+
           </div>
           <div className="mt-6 text-center">
             <a
@@ -209,61 +233,86 @@ export default function Hero() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Mission 1 */}
-            <div className="bg-white rounded shadow-lg p-6">
-              <Image
-                src="/Assets/Hero9.jpg" // Replace with the actual image path
-                alt="Mission 1"
-                width={400}
-                height={250}
-                className="rounded mb-4"
-              />
-              <h3 className="text-lg font-bold">Mobilize education to transform lives</h3>
-              <p className="mt-2 text-gray-700 text-sm">
-                Ensure quality equitable and inclusive education and promote lifelong learning.
-              </p>
-            </div>
+            <a
+  href="https://www.unesco.org/en/education" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white rounded shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero9.jpg" // Replace with the actual image path
+      alt="Mission 1"
+      width={400}
+      height={250}
+      className="rounded mb-4"
+    />
+    <h3 className="text-lg font-bold">Mobilize education to transform lives</h3>
+    <p className="mt-2 text-gray-700 text-sm">
+      Ensure quality equitable and inclusive education and promote lifelong learning.      
+   <br /><br /> </p>
+  </div>
+</a>
+
             {/* Mission 2 */}
-            <div className="bg-white rounded shadow-lg p-6">
-              <Image
-                src="/Assets/Hero10.jpg" // Replace with the actual image path
-                alt="Mission 2"
-                width={400}
-                height={250}
-                className="rounded mb-4"
-              />
-              <h3 className="text-lg font-bold">Reconnect with the living</h3>
-              <p className="mt-2 text-gray-700 text-sm">
-                Protect the environment through knowledge sharing, good behavior, and respect for biodiversity.
-              </p>
-            </div>
+            <a
+  href="https://www.unesco.org/en/biodiversity" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white rounded shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero10.jpg" // Replace with the actual image path
+      alt="Mission 2"
+      width={400}
+      height={250}
+      className="rounded mb-4"
+    />
+    <h3 className="text-lg font-bold">Reconnect with the living</h3>
+    <p className="mt-2 text-gray-700 text-sm">
+      Protect the environment through knowledge sharing, good behavior, and respect for biodiversity.
+  </p><br />
+  </div>
+</a>
+
             {/* Mission 3 */}
-            <div className="bg-white rounded shadow-lg p-6">
-              <Image
-                src="/Assets/Hero11.jpeg" // Replace with the actual image path
-                alt="Mission 3"
-                width={400}
-                height={250}
-                className="rounded mb-4"
-              />
-              <h3 className="text-lg font-bold">Foster science & technology in the service of humanity</h3>
-              <p className="mt-2 text-gray-700 text-sm">
-                Encourage Open Science and the free flow of ideas while developing ethical standards of AI and Neurosciences.
-              </p>
-            </div>
+            <a
+  href="https://www.unesco.org/en/artificial-intelligence" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white rounded shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero11.jpeg" // Replace with the actual image path
+      alt="Mission 3"
+      width={400}
+      height={250}
+      className="rounded mb-4"
+    />
+    <h3 className="text-lg font-bold">Foster science & technology in the service of humanity</h3>
+    <p className="mt-2 text-gray-700 text-sm">
+      Encourage Open Science and the free flow of ideas while developing ethical standards of AI and Neurosciences.
+    </p>
+  </div>
+</a>
+
+
             {/* Mission 4 */}
-            <div className="bg-white rounded shadow-lg p-6">
-              <Image
-                src="/Assets/Hero12.jpg" // Replace with the actual image path
-                alt="Mission 4"
-                width={400}
-                height={250}
-                className="rounded mb-4"
-              />
-              <h3 className="text-lg font-bold">Promote inclusion & mutual understanding</h3>
-              <p className="mt-2 text-gray-700 text-sm">
-                Build inclusive societies by promoting respect and tolerance, and fighting against racism, hate speech, and misinformation.
-              </p>
-            </div>
+            <a
+  href="https://www.unesco.org/en/no-racism-no-discrimination" // Replace with the actual URL or route for the new page
+  className="block"
+>
+  <div className="bg-white rounded shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+    <Image
+      src="/Assets/Hero12.jpg" // Replace with the actual image path
+      alt="Mission 4"
+      width={400}
+      height={250}
+      className="rounded mb-4"
+    />
+    <h3 className="text-lg font-bold">Promote inclusion & mutual understanding</h3>
+    <p className="mt-2 text-gray-700 text-sm">
+      Build inclusive societies by promoting respect and tolerance, and fighting against racism, hate speech, and misinformation.
+    </p>
+  </div>
+</a>
+
           </div>
         </div>
       </section>
@@ -364,7 +413,7 @@ export default function Hero() {
 
   {/* Card Content */}
   <a
-    href="#" // Replace with the actual URL or route for the new page
+    href="https://www.unesco.org/en/world-heritage" // Replace with the actual URL or route for the new page
     className="w-full text-center"
   >
     <div className="flex justify-center">
@@ -564,14 +613,7 @@ export default function Hero() {
 
 
           </div>
-          <div className="mt-6 text-center">
-            <a
-              href="#"
-              className="inline-flex items-center bg-gray-300 text-black px-6 py-3 rounded shadow hover:bg-gray-400 font-medium text-lg"
-            >
-              Load more <span className="ml-2">↓</span>
-            </a>
-          </div>
+       
         </div>
       </section>
     </div>

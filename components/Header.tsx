@@ -21,7 +21,7 @@ const Dropdown = ({ label }: { label: string }) => {
 
 const Header = () => {
   return (
-    <header className="bg-blue-600 border-b border-gray-300 p-5">
+    <header className="bg-blue-400 border-b border-gray-300 p-5">
       <div className="container mx-auto flex items-center justify-between py-2 px-4">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
